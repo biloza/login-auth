@@ -14,5 +14,6 @@ mongoose.connect(
 );
 
 const login = require('./routes/login');
+const register = require('./routes/register');
 
 app.listen(port, () => console.log(`Server started on port ${port}!`));
